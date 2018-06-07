@@ -1,0 +1,6 @@
+framework module TGameSDKLoginFacebook {
+  umbrella header "TGameSDKLoginFacebook.h"
+
+  export *
+  module * { export * }
+}

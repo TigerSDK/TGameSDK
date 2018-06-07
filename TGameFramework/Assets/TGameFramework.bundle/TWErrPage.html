@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>error</title>
+<style type="text/css">
+body{
+    margin:0px;
+	padding: 0px;
+	font-family:"微软雅黑";
+}
+.closebtn{
+	background: url(images/TGame-close2.png);
+	background-repeat: no-repeat;
+	width: 15px;
+	height: 15px;
+	border: none;
+	font-weight: bold;
+	font-size: x-small;
+	background-size: 15px 15px;
+	float: left;
+	cursor: pointer;
+	position: absolute;
+	top: 15px;
+	right: 25px;
+}
+#header {
+	text-align: center;
+	background: url(images/TGame-head.png);
+	padding-top: 15px;
+	display: block;
+	height: 35px;
+	border: none;
+	font-weight: bold;
+	color:  #d8974b;
+	font-size:small;
+	background-size: auto 50px;
+}
+.content{
+	text-align: center;
+	color: #583f28;
+}
+.tips{
+	font-size: 
+}
+img{
+	width:100%;
+	max-width:410px;
+}
+hr{
+	border-buttom:none;
+	border-top:1px #d8974b solid;
+	width:80%;
+	max-width:350px;
+	padding-left:10px;
+	padding-right:10px;
+}
+</style>
+<script type="text/javascript">
+
+	function closed () {
+		// body...
+		window.location.href = "http://twgmp?close";
+	}
+	
+</script>
+</head>
+<body>
+	<span id="header">Online Game SDK</span>
+	<span class="closebtn" onclick="closed()"></span>
+	<br><br><br>
+	<div class="content">
+		<img alt="" src="images/TGame-error.png" >
+		<hr>
+		<br><br>
+		<span class="tips">UM....SOMETHING IS WRONG WITH YOUR NETWORK.</span><br>
+		<span class="tips"><font style="color: #d8974b;">PLEASE TRY AGAIN!</font></span>
+	</div>
+</body>
+</html>

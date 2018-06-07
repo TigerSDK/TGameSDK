@@ -1,0 +1,91 @@
+/* 
+  Localizable.strings
+  TGameFramework
+
+  Created by TWTech1 on 15-4-24.
+  Copyright (c) 2015年 jianming. All rights reserved.
+*/
+
+"Username" = "ชื่อผู้ใช้";
+"Trial Game" = "ทดลองเล่น";
+"Remember password" = "จำรหัสผ่าน";
+"Register" = "สมัคร";
+"Password" = "รหัสผ่าน";
+"Login" = "เข้าสู่ระบบ";
+"Get password back" = "กู้คืนรหัสผ่าน";
+"Forget Password?" = "ลืมรหัสผ่าน?";
+"Forget Password" = "ลืมรหัสผ่าน";
+"Confirm Password" = "ยืนยันรหัสผ่านใหม่";
+"Confirm" = "ยืนยัน";
+"Login with Facebook" = "ใช้ไอดี Facebook";
+"Facebook Logout" = "ออกจากระบบ Facebook";
+"Tiger Game User Center" = "ศูนย์ข้อมูลบุคคล %@";
+"Tiger Game Recharge" = "ศูนย์เติมเงิน %@";
+"Email(used to retrive password)" = "อีเมล （เพื่อความสะดวกในการขอรับรหัสผ่านใหม่";
+"Email" = "อีเมล";
+"Login Top" = "เข้าสู่ระบบ";
+"Register Top" = "สมัคร";
+
+"The bind-email is wrong, please re-enter" = "อีเมลไม่ถูกต้อง กรุณากรอกอีเมลอีกครั้ง";
+"The app doesn't exist" = "แอปพลิเคชั่นนี้ไม่มีอยู่";
+"Wrong username or password, please re-enter" = "ไอดีและพาสเวิร์ดไม่เข้ากัน กรุณากรอกใหม่อีกครั้ง";
+"Username existed, please re-enter" = "ไอดีนี้มีอยู่แล้ว กรุณากรอกใหม่อีกครั้ง";
+"Username doesn't exsit,please re-enter" = "ไอดีนี้ไม่มีอยู่ กรุณากรอกใหม่อีกครั้ง";
+"User hasn't bound an email" = "ไอดีของของยังไม่ได้ผูกเข้ากับอีเมล";
+"Username should be 5-16 characters ,please re-enter" = "ความยาวของชื่อต้องอยู่ระหว่าง 5-16 ตัวอักษร กรุณากรอกใหม่อีกครั้ง";
+"Password should be 5-16 characters ,please re-enter" = "ความยาวของรหัสต้องอยู่ระหว่าง 5-16 ตัว กรุณากรอกใหม่อีกครั้ง";
+"Re-enter password doesn't match password,please enter again" = "รหัสยืนยันและรหัสผ่านไม่เข้ากัน กรุณากรอกใหม่";
+"Re-enter password should be 5-16 characters ,please enter again" = "รหัสยืนยันไม่ถูกต้อง กรุณากรอกใหม่อีกครั้ง";
+"Username format error, must be letters or Numbers" = "รูปแบบชื่อไม่ถูกต้อง จะต้องเป็นตัวอักษรหรือตัวเลขเท่านั้น";
+"Password format error, must be letters or Numbers" = "รูปแบบของรหัสไม่ถูกต้อง จะต้องเป็นตัวอักษรหรือตัวเลขเท่านั้น";
+"Password confirmation format error, must be letters or Numbers" = "รูปแบบของรหัสยืนยันไม่ถูกต้อง จะต้องเป็นตัวอักษรหรือตัวเลขเท่านั้น";
+
+"Login Failed" = "การล็อกอินผิดพลาด";
+"Authorized over time, please re-enter password" = "การเข้าเกมอัตโนมัติหมดเวลา กรุณากรอกรหัส";
+"Please enter username" = "กรุณากรอกไอดี";
+"Please enter password" = "กรุณากรอกรหัส";
+"Please re-enter password" = "กรุณากรอกรหัสอีกครั้ง";
+"Tip" = "หมายเหตุ";
+"Connection Error, please try again" = "อินเตอร์เนตผิดพลาด กรุณารอสักครู่แล้วลองอีกครั้ง";
+"Register completed. Your account is %@. Please secure it" = "การสมัครสำเร็จ！คุณสามารถล็อกอินด้วยไอดี ：%@ กรุณารักษาความปลอดภัยของไอดี";
+"You are in trial game, please bind an email in User Center" = "ไอดีของคุณยังเป็นระบบทดลองเล่น กรุณาเข้าไปที่สูนย์ข้อมูลบุคคลและ ทำการผูกไอดีเข้ากับอีเมลของคุณ";
+"Please enter an email" = "กรุณากรอกอีกอีเมล";
+
+"The username has not exsit" = "คุณป้อนชื่อผู้ใช้ไม่ถูกต้อง กรุณาตรวจสอบข้อมูลอีกครั้ง";
+"Your account has no bind e-mail ,you can’t get password back" = "บัญชีของคุณไม่ได้สอดคล้องกับอีเมล ไม่สามารถกู้คืนรหัสผ่าน";
+"Email can't be empty or format is incorrect" = "อีเมลไม่ถูกต้อง";
+"An e-mail has been sent to the e-mail address you provided. Please set a new password" = "ข้อความได้ถูกส่งไปยังอีเมลของคุณ กรุณาเปลี่ยนรหัสผ่าน";
+"Are you sure to delete saving of this account? (The data of account won't be deleted)" = "คุณยืนยันที่จะลบบัญชีการใช้งานออกจากเครื่องนี้ （บัญชีการใช้งานจะไม่ถูกลบ）";
+
+"Logout" = "สมัคร";
+"Cancel" = "ยกเลิก";
+
+"tg_user_register_success" = "การสมัครเสร็จสมบูรณ์ ไอดีการเข้าใช้ของคุณคือ ：%@ เพื่อความปลอดภัย เราได้ส่งอีเมลไปยังอีเมลของคุณแล้ว กรุณาเช็คอีเมล";
+"tg_user_register_success_without_email" = "การสมัครสำเร็จ！คุณสามารถล็อกอินด้วยไอดี ：%@ กรุณารักษาความปลอดภัยของไอดี";
+"tg_user_not_bind_email" = "บัญชีของคุณไม่ได้สอดคล้องกับอีเมล ไม่สามารถกู้คืนรหัสผ่าน";
+
+"tg_invalid_operation" = "การกระทำข้างต้นเป็นโมฆะ กรุณาลองใหมอีกครั้ง"; 
+"tg_get_invite_success" = "คุณได้รับรางวัลแล้ว"; 
+"tg_changepassword_mailsended" = "ข้อความได้ถูกส่งไปยังอีเมลของคุณ กรุณาเปลี่ยนรหัสผ่าน"; 
+"tg_fbverify_failed" = "ไอดีของคุณยังไม่ได้รับการยืนยัน กรุณาเข้าใหม่อีกครั้ง"; 
+"tg_get_invite_num_not_enough" = "จำนวนการเชิญเพื่อนยังไม่ครบตามกำหนด"; 
+"tg_get_invite_already_live" = "ได้รับรางวัลแล้ว"; 
+
+"tg_user_terms_detail" = "เมื่อเข้าสู้เกมจะถือว่ายอมรับข้อตกลงและเงื่อนไขโดยอัตโนมัติ";
+"tg_user_terms_service" = "เงื่อนไขการใช้บริการ";
+"tg_user_privacy_policy" = "นโยบายความเป็นส่วนตัวของผู้ใช้";
+"tg_user_terms_agree" = "เข้าเกม";
+"tg_terms_title" = "เงื่อนไข %@";
+
+"tg_dropzone_user" = "ข้อมูล";
+"tg_dropzone_dashboard" = "ประกาศ";
+"tg_dropzone_feedback" = "เซอร์วิส";
+"tg_dropzone_funpage" = "แฟนเพจ";
+"tg_dropzone_bbs" = "ฟอรั่ม";
+"tg_dropzone_moregames" = "แนะนำ";
+"tg_dropzone_logout" = "สมัคร";
+"tg_dropzone_close" = "ปิด";
+
+"tg_ads_wait" = "กำลังเตรียมประกาศสำหรับกิจกรรม กรุณารอสักครู่ ";
+"tg_pushes" = "ประกาศ";
+"tg_pay_uncomplete" = "การซื้อยังดำเนินการไม่สำเร็จ ยกเลิกหรือไม่";

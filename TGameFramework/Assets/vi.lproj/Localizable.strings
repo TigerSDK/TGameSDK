@@ -1,0 +1,94 @@
+/* 
+  Localizable.strings
+  TGameFramework
+
+  Created by TWTech1 on 15-4-24.
+  Copyright (c) 2015年 jianming. All rights reserved.
+*/
+
+
+"Username" = "Tài khoản";
+"Trial Game" = "Chơi thử";
+"Remember password" = "Ghi nhớ mật khẩu";
+"Register" = "Đăng ký!";
+"Password" = "Mật khẩu";
+"Login" = "Đăng nhập";
+"Get password back" = "Lấy lại mật khẩu";
+"Forget Password?" = "Quên mật khẩu?";
+"Forget Password" = "Quên mật khẩu";
+"Confirm Password" = "Xác nhận mật khẩu";
+"Confirm" = "Xác nhận";
+"Login with Facebook" = "Facebook đăng nhập";
+"Facebook Logout" = "Gạch bỏ Facebook";
+"Tiger Game User Center" = "Trung tâm %@";
+"Tiger Game Recharge" = "Trung tâm nạp thẻ %@";
+"Email(used to retrive password)" = "email (Dùng tìm lại mật khẩu)";
+"Email" = "email";
+"Login Top" = "Đăng nhập";
+"Register Top" = "Đăng ký!";
+
+"The bind-email is wrong, please re-enter" = "Nhập mail bảng định không chính xác,Mời bạn nhập lại";
+"The app doesn't exist" = "Ứng dụng không tồn tại";
+"Wrong username or password, please re-enter" = "Tài khoản hoặc mật khẩu không đúng,mời bạn nhập lại";
+"Username existed, please re-enter" = "Tài khoản đã tồn tại,mời bạn nhập lại";
+"Username doesn't exsit,please re-enter" = "Tài khoản không tồn tại,mời bạn nhập lại";
+"User hasn't bound an email" = "Tài khoản bạn vừa nhập chưa bảng định mail";
+"Username should be 5-16 characters ,please re-enter" = "Tên tài khoản dộ dài 5-16 kí tự,mời bạn nhập lại";
+"Password should be 5-16 characters ,please re-enter" = "Mật khẩu dộ dài 5-16 kí tự,mời bạn nhập lại";
+"Re-enter password doesn't match password,please enter again" = "Mã mật khẩu và mật khẩu không khớp, vui lòng nhập lại";
+"Re-enter password should be 5-16 characters ,please enter again" = "Mật khẩu xác nhận không phù hợp số kí tự quy định,mời bạn nhập lại";
+"Username format error, must be letters or Numbers" = "Tên tài khoản không phù hợp,chỉ dùng chữ cái và chữ số";
+"Password format error, must be letters or Numbers" = "Mật khẩu không thích hợp,chỉ dùng chữ cái hoặc chữ số";
+"Password confirmation format error, must be letters or Numbers" = "Mật khẩu xác nhận không thích hợp,chỉ dùng chữ cái và chữ số";
+
+"Login Failed" = "Đăng nhập thất bại";
+"Authorized over time, please re-enter password" = "Tài khoản quá hạn,mời bạn nhập lại mật khẩu";
+"Please enter username" = "Nhập tên đăng nhập";
+"Please enter password" = "Nhập mật khẩu";
+"Please re-enter password" = "Nhập lại mật khẩu";
+"Tip" = "Chú ý";
+"Connection Error, please try again" = "Lỗi mạng,đợi lát thử lại";
+"Register completed. Your account is %@. Please secure it" = "Đăng kí thành công ! Tài khoản đăng nhập hiện tại của bạn là ：%@ ,ghi nhớ tài khoản đăng nhập và chú ý bảo mật tài khoản !";
+"You are in trial game, please bind an email in User Center" = "Hiện tại bạn đang đăng nhập chơi thử,nhanh tay tới trung tâm game tiến hành bảng định mail !";
+"Please enter an email" = "Hãy nhập Email bảng định";
+
+
+"The username has not exsit" = "Tài khoản mà bạn đăng nhập không tồn tại! ";
+"Your account has no bind e-mail ,you can’t get password back" = "Tài khoản của bạn chưa bảng định với Email ,không thể tìm lại mật khẩu!";
+"Email can't be empty or format is incorrect" = "Mail yêu cầu không để trống hoặc quy cách không đúng";
+"An e-mail has been sent to the e-mail address you provided. Please set a new password" = "Email đã được gửi tới hòm thư của bạn,hãy nhanh chóng sửa đổi mật khẩu!";
+"Are you sure to delete saving of this account? (The data of account won't be deleted)" = "Bạn chắc chắn xóa bỏ tài khoản tại máy này? ( Tài khoản của bản thân không bị xóa)";
+
+"Logout" = "Thoát";
+"Cancel" = "Hủy bỏ";
+
+"tg_user_register_success" = "Tài khoản đăng ký thành công! tài khoản hiện nay:%@, để bảo vệ tài khoản của bạn, chúng tôi đã gửi tài khoản bảng định đến email của bạn,vui lòng kiểm tra!";
+"tg_user_register_success_without_email" = "Đăng kí thành công ! Tài khoản đăng nhập hiện tại của bạn là ：%@ ,ghi nhớ tài khoản đăng nhập và chú ý bảo mật tài khoản !";
+"tg_user_not_bind_email" = "Tài khoản của bạn chưa bảng định với Email ,không thể tìm lại mật khẩu!";
+
+"tg_invalid_operation" = "Thao tác vừa rồi không có hiệu lực, làm lại"; 
+"tg_get_invite_success" = "Đã nhận thành công lễ bao này !"; 
+"tg_changepassword_mailsended" = "Email đã được gửi tới hòm thư của bạn,hãy nhanh chóng sửa đổi mật khẩu!"; 
+"tg_fbverify_failed" = "Tài khoản Facebook của bạn chưa kích hoạt thành công,hãy đăng nhập lại kích hoạt lại,"; 
+"tg_get_invite_num_not_enough" = "Số bạn bè được mời chưa đạt yêu cầu!"; 
+"tg_get_invite_already_live" = "Lễ bao đã lĩnh nhận !"; 
+
+
+"tg_user_terms_detail" = "Click \"Vào game\" xác nhận bạn đã đọc và chấp nhận các điều khoản bên dưới";
+"tg_user_terms_service" = "Điều khoản phục vụ";
+"tg_user_privacy_policy" = "Chính sách bảo mật";
+"tg_user_terms_agree" = "Vào Game";
+"tg_terms_title" = "Điều khoản %@";
+
+"tg_dropzone_user" = "Cá nhân";
+"tg_dropzone_dashboard" = "T.Báo";
+"tg_dropzone_feedback" = "CSKH";
+"tg_dropzone_funpage" = "Fanpage";
+"tg_dropzone_bbs" = "Forum";
+"tg_dropzone_moregames" = "HotGame";
+"tg_dropzone_logout" = "Thoát ";
+"tg_dropzone_close" = "Đóng";
+
+"tg_ads_wait" = "Đang nhận hoạt động và thông tin công cáo,hãy chờ trong ít giây";
+"tg_pushes" = "Công cáo";
+"tg_pay_uncomplete" = "Giao dịch chưa hoàn thành, kết thúc thanh toán?";

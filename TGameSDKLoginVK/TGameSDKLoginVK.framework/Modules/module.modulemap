@@ -1,0 +1,6 @@
+framework module TGameSDKLoginVK {
+  umbrella header "TGameSDKLoginVK.h"
+
+  export *
+  module * { export * }
+}

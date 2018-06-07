@@ -1,0 +1,6 @@
+framework module TGameSDKAppsFlyerTracker {
+  umbrella header "TGameSDKAppsFlyerTracker.h"
+
+  export *
+  module * { export * }
+}

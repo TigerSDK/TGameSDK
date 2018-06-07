@@ -1,0 +1,93 @@
+/* 
+  Localizable.strings
+  TGameFramework
+
+  Created by TWTech1 on 15-4-24.
+  Copyright (c) 2015年 jianming. All rights reserved.
+*/
+
+
+"Username" = "Username";
+"Trial Game" = "Trial Game";
+"Remember password" = "Remember password";
+"Register" = "Register";
+"Password" = "Password";
+"Login" = "Login";
+"Get password back" = "Get password back";
+"Forget Password?" = "Forget Password?";
+"Forget Password" = "Forget Password";
+"Confirm Password" = "Confirm Password";
+"Confirm" = "Confirm";
+"Login with Facebook" = "Login with Facebook";
+"Facebook Logout" = "Facebook Logout";
+"Tiger Game User Center" = "%@ User Center";
+"Tiger Game Recharge" = "%@ Recharge";
+"Email(used to retrive password)" = "Email(used to retrive password)";
+"Email" = "Email";
+"Login with VK" = "Login with VK";
+"Login Top" = "LOGIN";
+"Register Top" = "REGISTER";
+
+"The bind-email is wrong, please re-enter" = "The bind-email is wrong, please re-enter";
+"The app doesn't exist" = "The app doesn't exist";
+"Wrong username or password, please re-enter" = "Wrong username or password, please re-enter";
+"Username existed, please re-enter" = "Username existed, please re-enter";
+"Username doesn't exsit,please re-enter" = "Username doesn't exsit,please re-enter";
+"User hasn't bound an email" = "User hasn't bound an email";
+"Username should be 5-16 characters ,please re-enter" = "Username should be 5-16 characters ,please re-enter";
+"Password should be 5-16 characters ,please re-enter" = "Password should be 5-16 characters ,please re-enter";
+"Re-enter password doesn't match password,please enter again" = "Re-enter password doesn't match password,please enter again.";
+"Re-enter password should be 5-16 characters ,please enter again" = "Re-enter password should be 5-16 characters ,please enter again.";
+"Username format error, must be letters or Numbers" = "Username format error, must be letters or Numbers";
+"Password format error, must be letters or Numbers" = "Password format error, must be letters or Numbers";
+"Password confirmation format error, must be letters or Numbers" = "Password confirmation format error, must be letters or Numbers";
+
+"Login Failed" = "Login Failed";
+"Authorized over time, please re-enter password" = "Authorized over time, please re-enter password";
+"Please enter username" = "Please enter username";
+"Please enter password" = "Please enter password";
+"Please re-enter password" = "Please re-enter password";
+"Tip" = "Tip";
+"Connection Error, please try again" = "Connection Error, please try again";
+"Register completed. Your account is %@. Please secure it" = "Register completed. Your account is %@. Please secure it.";
+"You are in trial game, please bind an email in User Center" = "You are in trial game, please bind an email in User Center.";
+"Please enter an email" = "Please enter an email";
+
+"The username has not exsit" = "The username has not exsit";
+"Your account has no bind e-mail ,you can’t get password back" = "Your account has no bind e-mail ,you can’t get password back";
+"Email can't be empty or format is incorrect" = "Email can't be empty or format is incorrect";
+"An e-mail has been sent to the e-mail address you provided. Please set a new password" = "An e-mail has been sent to the e-mail address you provided. Please set a new password";
+"Are you sure to delete saving of this account? (The data of account won't be deleted)" = "Are you sure to delete saving of this account? (The data of account won't be deleted)";
+
+"Logout" = "Logout";
+"Cancel" = "Cancel";
+
+"tg_user_register_success" = "Register success! Your current login account is:%@,we have send e-mail to your bind e-mail adress for account security, please check!";
+"tg_user_register_success_without_email" = "Register success! Your current login account is %@. Please secure it.";
+"tg_user_not_bind_email" = "Your account has no bind e-mail ,you can’t get password back. ";
+
+"tg_invalid_operation" = "Invalid operation，please try again.";
+"tg_get_invite_success" = "You have successfully received reward packs.";
+"tg_changepassword_mailsended" = "An e-mail has been sent to the e-mail address you provided. Please set a new password.";
+"tg_fbverify_failed" = "Authority to login with Facebook failed,try again please.";
+"tg_get_invite_num_not_enough" = "Number of Invitations haven't meet the request!";
+"tg_get_invite_already_live" = "Have claimede this Gift Pack already !";
+
+"tg_user_terms_detail" = "Click on \"Enter\", it means that you have read and agree to the following terms:";
+"tg_user_terms_service" = "Terms of Service";
+"tg_user_privacy_policy" = "Privacy Policy";
+"tg_user_terms_agree" = "Enter";
+"tg_terms_title" = "%@ Terms";
+
+"tg_dropzone_user" = "Profile";
+"tg_dropzone_dashboard" = "Notice";
+"tg_dropzone_feedback" = "Service";
+"tg_dropzone_funpage" = "Fanpage";
+"tg_dropzone_bbs" = "Forum";
+"tg_dropzone_moregames" = "HotGame";
+"tg_dropzone_logout" = "Logout";
+"tg_dropzone_close" = "Close";
+
+"tg_ads_wait" = "Event information and Notice are being loaded.Please wait!";
+"tg_pushes" = "Notification";
+"tg_pay_uncomplete" = "Payment is not finished,are you sure to quit?";

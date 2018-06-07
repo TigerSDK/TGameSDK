@@ -1,0 +1,6 @@
+framework module TGameSDKFireBaseFCM {
+  umbrella header "TGameSDKFireBaseFCM.h"
+
+  export *
+  module * { export * }
+}

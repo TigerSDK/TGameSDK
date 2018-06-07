@@ -1,0 +1,6 @@
+framework module TGameSDKPay {
+  umbrella header "TGameSDKPay.h"
+
+  export *
+  module * { export * }
+}

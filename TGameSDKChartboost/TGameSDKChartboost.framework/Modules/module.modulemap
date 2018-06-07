@@ -1,0 +1,6 @@
+framework module TGameSDKChartboost {
+  umbrella header "TGameSDKChartboost.h"
+
+  export *
+  module * { export * }
+}

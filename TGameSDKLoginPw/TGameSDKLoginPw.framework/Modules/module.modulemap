@@ -1,0 +1,6 @@
+framework module TGameSDKLoginPw {
+  umbrella header "TGameSDKLoginPw.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,95 @@
+/* 
+  Localizable.strings
+  TGameFramework
+
+  Created by TWTech1 on 15-4-24.
+  Copyright (c) 2015年 jianming. All rights reserved.
+*/
+
+"Username" = "用户名";
+"Trial Game" = "游客试玩";
+"Remember password" = "记住密码";
+"Register" = "注册";
+"Password" = "密码";
+"Login" = "登录";
+"Get password back" = "找回密码";
+"Forget Password?" = "忘记密码？";
+"Forget Password" = "忘记密码";
+"Confirm Password" = "确认密码";
+"Confirm" = "确认";
+"Login with Facebook" = "Facebook登录";
+"Facebook Logout" = "注销Facebook";
+"Tiger Game User Center" = "%@用户中心";
+"Tiger Game Recharge" = "%@充值中心";
+"Email(used to retrive password)" = "电子邮箱(方便找回密码)";
+"Email" = "电子邮箱";
+"Login with VK" = "VK登录";
+"Login Top" = "登录";
+"Register Top" = "注册";
+
+"The bind-email is wrong, please re-enter" = "您输入的邮箱与绑定邮箱不匹配，请重新输入";
+"The app doesn't exist" = "应用不存在";
+"Wrong username or password, please re-enter" = "用户名或密码不匹配，请重新输入";
+"Username existed, please re-enter" = "用户名已存在，请重新输入";
+"Username doesn't exsit,please re-enter" = "用户名不存在，请重新输入";
+"User hasn't bound an email" = "您输入的用户未绑定邮箱";
+"Username should be 5-16 characters ,please re-enter" = "用户名长度为5-16位，请重新输入";
+"Password should be 5-16 characters ,please re-enter" = "密码长度为5-16位，请重新输入";
+"Re-enter password doesn't match password,please enter again" = "验证密码与密码不匹配，请重新输入";
+"Re-enter password should be 5-16 characters ,please enter again" = "验证密码长度不符合，请重新输入";
+"Username format error, must be letters or Numbers" = "用户名格式错误，必须为字母或数字";
+"Password format error, must be letters or Numbers" = "密码格式错误，必须为字母或数字";
+"Password confirmation format error, must be letters or Numbers" = "验证密码格式错误，必须为字母或数字";
+
+"Login Failed" = "登录失败";
+"Authorized over time, please re-enter password" = "该账户授权过期，请重新输入密码";
+"Please enter username" = "请输入用户名";
+"Please enter password" = "请输入密码";
+"Please re-enter password" = "请再次输入密码进行确认";
+"Tip" = "温馨提示";
+"Connection Error, please try again" = "网络错误，请稍后重试";
+"Register completed. Your account is %@. Please secure it" = "注册账号成功！您当前的登录账号为：%@，请牢记您的账号并注意账号安全！";
+"You are in trial game, please bind an email in User Center" = "您当前是游客身份，请尽快在游戏的用户中心里进行绑定！";
+"Please enter an email" = "请输入绑定邮箱";
+
+"The username has not exsit" = "您输入的用户名不存在，请核实后重新输入";
+"Your account has no bind e-mail ,you can’t get password back" = "您的账号没有绑定邮箱，不能找回密码";
+"Email can't be empty or format is incorrect" = "邮箱不能为空或者格式不正确";
+"An e-mail has been sent to the e-mail address you provided. Please set a new password" = "邮件已经发送到您的邮箱里，请尽快修改密码";
+"Are you sure to delete saving of this account? (The data of account won't be deleted)" = "您确认删除本机保存的账号吗?（不会删除账号数据）";
+
+"Logout" = "注销";
+"Cancel" = "取消";
+
+"tg_user_register_success" = "注册账号成功！您当前的登录账号为：%@，我们已向您的邮箱发送绑定账号的邮件，请及时查收！";
+"tg_user_register_success_without_email" = "注册账号成功！您当前的登录账号为：%@，请牢记您的账号并注意账号安全！";
+"tg_user_not_bind_email" = "您的账号没有绑定邮箱，不能找回密码";
+
+"tg_invalid_operation" = "您刚才的操作为无效的，请再试一次";
+"tg_get_invite_success" = "您已成功领取该礼包！";
+"tg_changepassword_mailsended" = "邮件已经发送到您的邮箱里，请尽快修改密码";
+"tg_fbverify_failed" = "您的账号在facebook没有验证成功，请重新授权登录";
+"tg_get_invite_num_not_enough" = "邀请人数未达到要求！";
+"tg_get_invite_already_live" = "已经领取过该礼包！";
+
+"tg_user_terms_detail" = "点击“进入游戏”，即表示您已阅读并同意接受以下条款： ";
+"tg_user_terms_service" = "用户服务条款";
+"tg_user_privacy_policy" = "用户隐私政策";
+"tg_user_terms_agree" = "进入游戏";
+"tg_terms_title" = "%@ 条款";
+
+
+"tg_dropzone_user" = "个人";
+"tg_dropzone_dashboard" = "公告";
+"tg_dropzone_feedback" = "客服";
+"tg_dropzone_funpage" = "粉丝页";
+"tg_dropzone_bbs" = "论坛";
+"tg_dropzone_moregames" = "推荐游戏";
+"tg_dropzone_logout" = "注销";
+"tg_dropzone_close" = "关闭";
+
+"tg_ads_wait" = "正在获取活动及公告信息，请稍等";
+"tg_pushes" = "公告";
+"tg_pay_uncomplete" = "交易未完成，是否结束支付？";
+
+

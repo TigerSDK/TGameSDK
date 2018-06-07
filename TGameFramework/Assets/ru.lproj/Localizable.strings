@@ -1,0 +1,96 @@
+/* 
+  Localizable.strings
+  TGameFramework
+
+  Created by TWTech1 on 15-4-24.
+  Copyright (c) 2015年 jianming. All rights reserved.
+*/
+
+
+"Username" = "Логин";
+"Trial Game" = "Посетитель";
+"Remember password" = "запомнить пароль";
+"Register" = "Регистрация";
+"Password" = "Пароль";
+"Login" = "Вход";
+"Get password back" = "Восстановить пароль";
+"Forget Password?" = "Забыли Пароль？";
+"Forget Password" = "Забыли Пароль";
+"Confirm Password" = "Подтвердите Пароль";
+"Confirm" = "Подтвердите";
+"Login with Facebook" = "Вход через Facebook";
+"Facebook Logout" = "Отметить Facebook";
+"Tiger Game User Center" = "%@Центр пользователей";
+"Tiger Game Recharge" = "%@Пополнение";
+"Email(used to retrive password)" = "Электронная почта(способ восстановления пароля)";
+"Email" = "Электронная почта";
+"Login with VK" = "Вход через VK";
+"Login Top" = "Вход";
+"Register Top" = "Регистрация";
+
+
+
+"The bind-email is wrong, please re-enter" = "Неверный адрес почты,Вветите снова";
+"The app doesn't exist" = "Предложение не сушествует";
+"Wrong username or password, please re-enter" = "Неверное имя пользователя или пароль!";
+"Username existed, please re-enter" = "Аккаунт уже существует，Введите новый";
+"Username doesn't exsit,please re-enter" = "Аккаунт не существует，Введите новый";
+"User hasn't bound an email" = "Ваш аккаунт не привязался с почтой";
+"Username should be 5-16 characters ,please re-enter" = "Введите новый аккаунт (от 5 до16 символов)";
+"Password should be 5-16 characters ,please re-enter" = "Введите новый пароль (от 5 до16 символов)";
+"Re-enter password doesn't match password,please enter again" = "Неверный пароль проверки，Введите снова";
+"Re-enter password should be 5-16 characters ,please enter again" = "Неверный пароль проверки，Введите снова";
+"Username format error, must be letters or Numbers" = "Формат аккаунта неверен. Это должно быть по буквам или номерам";
+"Password format error, must be letters or Numbers" = "Формат пароля неверен. Это должно быть по буквам или номерам";
+"Password confirmation format error, must be letters or Numbers" = "Формат пароля проверки неверен. Это должно быть по буквам или номерам";
+
+"Login Failed" = "Ошибка входа";
+"Authorized over time, please re-enter password" = "Истек срок действия вашего аккаунта，Введите новый пароль";
+"Please enter username" = "Введите Логин";
+"Please enter password" = "Введите пароль";
+"Please re-enter password" = "Введите пароль снова";
+"Tip" = "Подсказка";
+"Connection Error, please try again" = "Ошибка интернета，Повторите попытку позже!";
+"Register completed. Your account is %@. Please secure it" = "Успешно зарегистрирован ваш аккаунт!ваш аккаунт：%@，Запомните и сохраните！";
+"You are in trial game, please bind an email in User Center" = "Вы в настоящее время посетитель и, пожалуйста, связывайтесь как можно скорее в Центре пользователя игры！！";
+"Please enter an email" = "Введите привязанный аккаунт";
+
+"The username has not exsit" = "Неверное имя пользователя ，Введите новое";
+"Your account has no bind e-mail ,you can’t get password back" = "Ваш аккаунт не привязался с почтой,не может восстановить пароль";
+"Email can't be empty or format is incorrect" = "Формат почты неверен";
+"An e-mail has been sent to the e-mail address you provided. Please set a new password" = "Успешно зарегистрирован ваш аккаунт!ваш аккаунт：%1$s,Письмо отправлено в вашу почту，взгляните！";
+"Are you sure to delete saving of this account? (The data of account won't be deleted)" = "Вы действительно хотите удалить учетную запись, сохраненную в этим аппаратом?（не будет удалять данные аккаунта)";
+
+"Logout" = "Выйти";
+"Cancel" = "Отметить";
+
+"tg_user_register_success" = "Успешно зарегистрирован ваш аккаунт!ваш аккаунт：%@，Письмо отправлено в вашу почту，взгляните！";
+"tg_user_register_success_without_email" = "Успешно зарегистрирован ваш аккаунт！ваш аккаунт:%1$s,Запомните и сохраните！";
+"tg_user_not_bind_email" = "Ваш аккаунт не привязался с почтой,не может восстановить пароль";
+
+"tg_invalid_operation" = "Ваша операция недействительна. Повторите попытку";
+"tg_get_invite_success" = "Уже получили подарок！";
+"tg_changepassword_mailsended" = "Успешно зарегистрирован ваш аккаунт!ваш аккаунт：%1$s,Письмо отправлено в вашу почту，взгляните！";
+"tg_fbverify_failed" = "Ваша учетная запись не была проверена на facebook. Пожалуйста, повторно авторизуйте свой логин";
+"tg_get_invite_num_not_enough" = "Количества приглашений не хватает！";
+"tg_get_invite_already_live" = "Уже получили подарок！";
+
+"tg_user_terms_detail" = "Нажмите\"Вход в игру\"，обзначит, что ВЫ ПРОЧИТАЛИ И СОГЛАШАЕТЕСЬ ПРИНЯТЬ СЛЕДУЮЩИЕ ПОЛИТИКИ： ";
+"tg_user_terms_service" = "Пользовательское соглашение";
+"tg_user_privacy_policy" = "Политика конфиденциальности пользователей";
+"tg_user_terms_agree" = "Вход в игру";
+"tg_terms_title" = "%@ Политика";
+
+
+"tg_dropzone_user" = "Личное";
+"tg_dropzone_dashboard" = "Объявление";
+"tg_dropzone_feedback" = "Поддержка";
+"tg_dropzone_funpage" = "Funpage";
+"tg_dropzone_bbs" = "Форму";
+"tg_dropzone_moregames" = "Рекомендуемые игры";
+"tg_dropzone_logout" = "Выйти";
+"tg_dropzone_close" = "Закройте";
+
+"tg_ads_wait" = "Подождите";
+"tg_pushes" = "Объявить";
+"tg_pay_uncomplete" = "Поподнение не заверщено ？";

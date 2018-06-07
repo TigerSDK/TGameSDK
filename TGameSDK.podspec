@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: TGameSDK pod Use.
+TODO: 移动互联网出海一站式服务平台TigerSDK，通过对接一个SDK为单机、网游、APP提供登录、支付、数据跟踪、运营分析等多种功能。
                        DESC
 
-  s.homepage         = 'https://github.com/xiaoleiiOS'
+  s.homepage         = 'https://github.com/TigerSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '675407568@qq.com' => '675407568@qq.com' }
-  s.source           = { :git => 'https://gitee.com/xiaoleiios/TGameSDKTest.git', :tag => s.version.to_s }
+  s.author           = { 'TigerSDK' => 'liguoping@talentwalker.com' }
+  s.source           = { :git => 'https://github.com/TigerSDK/TGameSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

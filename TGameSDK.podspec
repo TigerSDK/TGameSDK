@@ -25,7 +25,7 @@ TODO: 移动互联网出海一站式服务平台TigerSDK，通过对接一个SDK
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'TigerSDK' => 'liguoping@talentwalker.com' }
-  s.source           = { :git => 'git@github.com:TigerSDK/TGameSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TigerSDK/TGameSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

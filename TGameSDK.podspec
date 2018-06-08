@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TGameSDK'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'TGameSDK pod Use.'
 
 # This description is used to generate tags and improve search results.
@@ -24,12 +24,13 @@ TODO: 移动互联网出海一站式服务平台TigerSDK，通过对接一个SDK
   s.homepage         = 'https://github.com/TigerSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'TigerSDK' => 'liguoping@talentwalker.com' }
-  s.source           = { :git => 'https://github.com/TigerSDK/TGameSDK.git', :tag => s.version.to_s }
+  s.author           = { 'liguoping@talentwalker.com' => 'liguoping@talentwalker.com' }
+  s.source           = { :git => 'https://github.com/TigerSDK/TGameSDK.git', :tag => s.version.to_s }#你的仓库地址，不能用SSH地址
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.requires_arc = true # 是否启用ARC
+  
 # 设置默认的模块，如果在pod文件中导入pod项目没有指定子模块，导入的是这里指定的模块
 s.default_subspec = 'TGameFramework'
 

@@ -46,82 +46,82 @@ s.subspec 'TGameFramework' do |subspec|
 end
 
 # 登录管理模块
-s.subspec 'TGameSDKLogin' do |subspec|
+s.subspec 'TGameSDKLogin' do |login|
     # 添加依赖第三方的framework
-    subspec.vendored_frameworks = 'TGameSDKLogin/*.framework'
+    login.vendored_frameworks = 'TGameSDKLogin/*.framework'
     # 依赖的核心模块
-    subspec.dependency 'TGameSDK/TGameFramework'
+    login.dependency 'TGameSDK/TGameFramework'
 end
 
 # 账号密码登录模块
-s.subspec 'TGameSDKLoginPw' do |subspec|
+s.subspec 'TGameSDKLoginPw' do |loginPw|
     # 添加依赖第三方的framework
-    subspec.vendored_frameworks = 'TGameSDKLoginPw/*.framework'
+    loginPw.vendored_frameworks = 'TGameSDKLoginPw/*.framework'
     # 依赖的核心模块
-    subspec.dependency 'TGameSDK/TGameSDKLogin'
+    loginPw.dependency 'TGameSDK/TGameSDKLogin'
 end
 
 # Facebook登录模块
-s.subspec 'TGameSDKLoginFacebook' do |subspec|
+s.subspec 'TGameSDKLoginFacebook' do |loginfb|
     # 添加依赖第三方的framework
-    subspec.vendored_frameworks = 'TGameSDKLoginFacebook/*.framework'
+    loginfb.vendored_frameworks = 'TGameSDKLoginFacebook/*.framework'
     # 依赖的核心模块
-    subspec.dependency 'TGameSDK/TGameSDKLogin'
-    subspec.dependency 'FBSDKCoreKit'
-    subspec.dependency 'FBSDKLoginKit'
-    subspec.dependency 'FBSDKShareKit'
+    loginfb.dependency 'TGameSDK/TGameSDKLogin'
+    loginfb.dependency 'FBSDKCoreKit'
+    loginfb.dependency 'FBSDKLoginKit'
+    loginfb.dependency 'FBSDKShareKit'
 end
 
 # VK登录模块
-    s.subspec 'TGameSDKLoginVK' do |subspec|
+    s.subspec 'TGameSDKLoginVK' do |loginvk|
     # 添加依赖第三方的framework
-    subspec.vendored_frameworks = 'TGameSDKLoginVK/*.framework'
+    loginvk.vendored_frameworks = 'TGameSDKLoginVK/*.framework'
     # 依赖的核心模块
-    subspec.dependency 'TGameSDK/TGameSDKLogin'
-    subspec.dependency 'VK-ios-sdk'
+    loginvk.dependency 'TGameSDK/TGameSDKLogin'
+    loginvk.dependency 'VK-ios-sdk'
 end
 
 # Pay模块
-s.subspec 'TGameSDKPay' do |subspec|
+s.subspec 'TGameSDKPay' do |pay|
     # 添加依赖第三方的framework
-    subspec.vendored_frameworks = 'TGameSDKPay/*.framework'
+    pay.vendored_frameworks = 'TGameSDKPay/*.framework'
     # 依赖的核心模块
-    subspec.dependency 'TGameSDK/TGameFramework'
+    pay.dependency 'TGameSDK/TGameFramework'
 end
 
 # AppsFlyerTracker模块
-s.subspec 'TGameSDKAppsFlyerTracker' do |subspec|
+s.subspec 'TGameSDKAppsFlyerTracker' do |appft|
     # 添加依赖第三方的framework
-    subspec.vendored_frameworks = 'TGameSDKAppsFlyerTracker/*.framework'
+    appft.vendored_frameworks = 'TGameSDKAppsFlyerTracker/*.framework'
     # 配置系统Framework
-    subspec.frameworks = 'AdSupport', 'iAd'
+    appft.frameworks = 'AdSupport', 'iAd'
     # 依赖的核心模块
-    subspec.dependency 'TGameSDK/TGameFramework'
+    appft.dependency 'TGameSDK/TGameFramework'
 end
 
 # NanigansSDK模块
-s.subspec 'TGameSDKNanigansSDK' do |subspec|
+s.subspec 'TGameSDKNanigansSDK' do |nanigans|
     # 添加依赖第三方的framework
-    subspec.vendored_frameworks = 'TGameSDKNanigansSDK/*.framework'
+    nanigans.vendored_frameworks = 'TGameSDKNanigansSDK/*.framework'
     # 依赖的核心模块
-    subspec.dependency 'TGameSDK/TGameFramework'
+    nanigans.dependency 'TGameSDK/TGameFramework'
 end
 
 # Chartboost模块
-s.subspec 'TGameSDKChartboost' do |subspec|
+s.subspec 'TGameSDKChartboost' do |chartb|
     # 添加依赖第三方的framework
-    subspec.vendored_frameworks = 'TGameSDKChartboost/*.framework'
+    chartb.vendored_frameworks = 'TGameSDKChartboost/*.framework'
     # 依赖的核心模块
-    subspec.dependency 'TGameSDK/TGameFramework'
+    chartb.dependency 'TGameSDK/TGameFramework'
 end
 
 # FireBaseFCM推送模块
-s.subspec 'TGameSDKFireBaseFCM' do |subspec|
+s.subspec 'TGameSDKFireBaseFCM' do |firebasefcm|
     # 添加依赖第三方的framework
-     subspec.vendored_frameworks = 'TGameSDKFireBaseFCM/*.framework'
+     firebasefcm.vendored_frameworks = 'TGameSDKFireBaseFCM/*.framework'
     # 依赖的核心模块
-     subspec.dependency 'TGameSDK/TGameFramework'
-     subspec.dependency 'Firebase/Messaging'
+     firebasefcm.dependency 'TGameSDK/TGameFramework'
+     firebasefcm.dependency 'Firebase/Messaging'
 end
 
 #s.frameworks = 'UIKit', 'Foundation'

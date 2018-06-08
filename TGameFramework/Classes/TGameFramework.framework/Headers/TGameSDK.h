@@ -29,6 +29,8 @@
 #import <TGameFramework/UITableView+DataSourceBlocks.h>
 #import <TGameFramework/TGWebView.h>
 
+#import <TalentFramework/CommandCenter.h>
+
 //! Project version number for TGameSDK.
 FOUNDATION_EXPORT double TGameSDKVersionNumber;
 

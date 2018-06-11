@@ -112,7 +112,7 @@ s.subspec 'TGameSDKChartboost' do |chartb|
     # 添加依赖第三方的framework
     chartb.vendored_frameworks = 'TGameSDKChartboost/*.framework'
     # 依赖的核心模块
-    #chartb.dependency 'TGameSDK/TGameFramework'
+    chartb.dependency 'TGameSDK/TGameFramework'
 end
 
 # FireBaseFCM推送模块

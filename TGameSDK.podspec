@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TGameSDK'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'TGameSDK pod Use.'
 
 # This description is used to generate tags and improve search results.
@@ -85,6 +85,8 @@ end
 s.subspec 'TGameSDKPay' do |pay|
     # 添加依赖第三方的framework
     pay.vendored_frameworks = 'TGameSDKPay/*.framework'
+    # 配置系统Framework
+    pay.frameworks = 'StoreKit'
     # 依赖的核心模块
     pay.dependency 'TGameSDK/TGameFramework'
 end

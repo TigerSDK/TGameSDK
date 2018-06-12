@@ -96,7 +96,7 @@ enum {
 // 弹出支付页面
 #define TG_SDK_PAY_PAGE @"/api/pay/getConfirmPage"
 // 苹果支付
-#define TG_SDK_PAY_IAP_URL @"/api/pay/verifyAppleOrder"
+#define TG_SDK_PAY_IAP_URL @"/api/pay/verifyAppleOrderNew"
 //pay
 //#define TG_SDK_PAY_GETAPPSTATUS @"/api/pay/getAppStatus"
 //details

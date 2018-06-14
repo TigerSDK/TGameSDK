@@ -206,6 +206,21 @@ FOUNDATION_EXPORT const unsigned char TGameSDKVersionString[];
          extInfo:(NSString *)extInfo
        notifyUrl:(NSString *)notifyUrl;
 
+/** TGame AppPayment
+ * @param productId 道具id
+ * @param buyNum 购买数量
+ * @param realPrice 道具价格(货币价格 CP所在地区货币)
+ * @param productName 道具名称
+ * @param extInfo 商户自定义信息  (例如区服、角色、商户订单号等)
+ * @param notifyUrl 后台回调地址 （可不传，在后台配置）
+ */
+- (void)doAppPayment:(NSString *)productId
+              buyNum:(int)buyNum
+           realPrice:(double)realPrice
+         productName:(NSString *)productName
+             extInfo:(NSString *)extInfo
+           notifyUrl:(NSString *)notifyUrl;
+
 /*
  * 用户登录或者切换账户成功后传输用户名、用户id、服务器名、服务器id
  * @param roleName 登陆游戏用户名

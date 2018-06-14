@@ -19,6 +19,17 @@
  */
 static NSString *const TGameSDKPayDoPayment = @"tg://login/pay/doPayment";
 
+/**App支付
+ *
+ *@param productId
+ *@param buyNum
+ *@param realPrice
+ *@param productName
+ *@param extInfo
+ *@param notifyUrl
+ */
+static NSString *const TGameSDKPayDoAppPayment = @"tg://login/pay/doAppPayment";
+
 
 @interface TGameSDKPay : NSObject
 

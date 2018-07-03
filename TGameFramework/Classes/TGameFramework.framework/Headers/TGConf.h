@@ -379,5 +379,13 @@ enum {
 #define TW_SDK_ERROR_105 105
 
 
+//新版登录UI，布局宏
+#define screenSize CGRectMake(0, 0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height).size
+#define ScreenScale ((screenSize.width<screenSize.height?screenSize.width:screenSize.height) / 375.0)
+
+#define LoginViewWidth ((screenSize.width<screenSize.height?screenSize.width:screenSize.height) - 45 * ScreenScale)
+#define LoginViewHeight (LoginViewWidth * 32 / 33.0)
+//登录View的内部比例系数
+#define LoginViewScale (LoginViewWidth / 330.0)
 
 #endif

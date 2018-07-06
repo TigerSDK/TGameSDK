@@ -26,7 +26,7 @@
 "Email" = "email";
 "Login Top" = "Đăng nhập";
 "Register Top" = "Đăng ký!";
-"Other login" = "Những cách đăng nhập."
+"Other login" = "Những cách đăng nhập.";
 
 
 "The bind-email is wrong, please re-enter" = "Nhập mail bảng định không chính xác,Mời bạn nhập lại";

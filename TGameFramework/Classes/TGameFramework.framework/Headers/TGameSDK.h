@@ -163,6 +163,11 @@ FOUNDATION_EXPORT const unsigned char TGameSDKVersionString[];
 @property (nonatomic, strong) NSString *chartboostAppID;
 @property (nonatomic, strong) NSString *chartboostAppSignature;
 
+/**
+ 是否有UI页面，默认为NO，在initializeApp方法之前配置生效。
+ */
+@property (nonatomic, assign) BOOL isExistUI;
+
 @property (nonatomic, assign) int status;
 
 @property (nonatomic, strong) NSString *hostUrl;

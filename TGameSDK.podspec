@@ -37,6 +37,7 @@ s.default_subspec = 'TGameFramework'
 # 定义一个核心模块，用户存放抽象的接口、基类以及一些公用的工具类和头文件
 s.subspec 'TGameFramework' do |subspec|
     
+    subspec.version          = '1.0.2'
     # 配置系统Framework
     subspec.frameworks = 'UIKit', 'Foundation'
     subspec.resource = 'TGameFramework/Assets/*.lproj','TGameFramework/Assets/TGameFramework.bundle'

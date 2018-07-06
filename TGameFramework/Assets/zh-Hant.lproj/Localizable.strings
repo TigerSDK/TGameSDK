@@ -27,7 +27,7 @@
 "Login with VK" = "VK登錄";
 "Login Top" = "登錄";
 "Register Top" = "註冊";
-"Other login" = "其他登錄方式"
+"Other login" = "其他登錄方式";
 
 "The bind-email is wrong, please re-enter" = "您輸入的郵箱與綁定郵箱不匹配，請重新輸入";
 "The app doesn't exist" = "應用不存在";

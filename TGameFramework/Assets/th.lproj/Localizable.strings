@@ -25,7 +25,7 @@
 "Email" = "อีเมล";
 "Login Top" = "เข้าสู่ระบบ";
 "Register Top" = "สมัคร";
-"Other login" = "วิธีการเข้าสู่ระบบอื่นๆ"
+"Other login" = "วิธีการเข้าสู่ระบบอื่นๆ";
 
 
 "The bind-email is wrong, please re-enter" = "อีเมลไม่ถูกต้อง กรุณากรอกอีเมลอีกครั้ง";

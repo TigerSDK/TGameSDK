@@ -26,7 +26,7 @@
 "Email" = "이메일";
 "Login Top" = "로그인";
 "Register Top" = "회원가입";
-"Other login" = "다른 접속 방식"
+"Other login" = "다른 접속 방식";
 
 "The bind-email is wrong, please re-enter" = "귀속메일이 아닙니다,확인 후 다시 한번 입력하세요.";
 "The app doesn't exist" = "앱이 존재하지 않습니다.";

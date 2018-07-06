@@ -26,7 +26,7 @@
 "Login with VK" = "VK登录";
 "Login Top" = "登录";
 "Register Top" = "注册";
-"Other login" = "其他登录方式"
+"Other login" = "其他登录方式";
 
 
 "The bind-email is wrong, please re-enter" = "您输入的邮箱与绑定邮箱不匹配，请重新输入";

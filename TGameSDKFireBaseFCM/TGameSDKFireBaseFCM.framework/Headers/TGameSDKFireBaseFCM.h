@@ -22,6 +22,11 @@ static NSString *const TGameSDKFireBaseFCMSetAPNSToken = @"tg://fireBaseFCM/setA
  */
 static NSString *const TGameSDKFireBaseFCMSubscribeToTopic = @"tg://fireBaseFCM/subscribeToTopic";
 
+/**退订主题
+ *==参数topic
+ */
+static NSString *const TGameSDKFireBaseFCMUnsubscribeFromTopic = @"tg://fireBaseFCM/unsubscribeFromTopic";
+
 /**设置信息
  *==参数message
  */

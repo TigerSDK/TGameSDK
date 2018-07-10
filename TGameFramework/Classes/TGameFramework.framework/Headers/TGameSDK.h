@@ -333,6 +333,13 @@ FOUNDATION_EXPORT const unsigned char TGameSDKVersionString[];
 - (void)subscribeToTopic:(nonnull NSString *)topic;
 
 /**
+ *  Asynchronously unsubscribe from a topic.
+ *
+ *  @param topic The name of the topic, for example @"sports".
+ */
+- (void)unsubscribeFromTopic:(NSString *)topic;
+
+/**
  *  Use this to track message delivery and analytics for messages, typically
  *  when you receive a notification in `application:didReceiveRemoteNotification:`.
  *  However, you only need to call this if you set the `FirebaseAppDelegateProxyEnabled`

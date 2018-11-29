@@ -339,6 +339,23 @@ FOUNDATION_EXPORT const unsigned char TGameSDKVersionString[];
  */
 - (void)unsubscribeFromTopic:(NSString *)topic;
 
+/// Sets a user property to a given value. Up to 25 user property names are supported. Once set,
+/// user property values persist throughout the app lifecycle and across sessions.
+///
+/// The following user property names are reserved and cannot be used:
+/// <ul>
+///     <li>first_open_time</li>
+///     <li>last_deep_link_referrer</li>
+///     <li>user_id</li>
+/// </ul>
+///
+/// @param value The value of the user property. Values can be up to 36 characters long. Setting the
+///     value to nil removes the user property.
+/// @param name The name of the user property to set. Should contain 1 to 24 alphanumeric characters
+///     or underscores and must start with an alphabetic character. The "firebase_", "google_", and
+///     "ga_" prefixes are reserved and should not be used for user property names.
+- (void)setUserPropertyString:(nullable NSString *)value forName:(NSString *)name;
+
 /**
  *  Use this to track message delivery and analytics for messages, typically
  *  when you receive a notification in `application:didReceiveRemoteNotification:`.

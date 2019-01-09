@@ -37,10 +37,12 @@ static NSString *const TGameSDKLoginFloatAddTheShowedIndex = @"tg://login/floatA
 /**下载Images*/
 static NSString *const TGameSDKLoginDownloadsImages = @"tg://login/downloadsImages";
 
+/* 用户推送信息 */
+static NSString *const TGameSDKUserMessageList = @"tg://login/messageList";
+/**下载Images*/
+static NSString *const TGameSDKUserMessageCount = @"tg://login/messageCount";
 
 @interface TGameSDKLogin : NSObject
-
-
 /**
  HellowBar展示，目前用于Facebook管理类
 

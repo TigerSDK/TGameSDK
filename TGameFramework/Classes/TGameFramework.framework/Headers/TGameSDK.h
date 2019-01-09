@@ -116,6 +116,16 @@ FOUNDATION_EXPORT const unsigned char TGameSDKVersionString[];
  */
 - (void) tGetGiftSuccess:(NSString *)giftId;
 
+/** 获取用户推送信息列表成功回调
+ * @param result 信息列表数据
+ */
+- (void) tGetUserMessageListSuccess:(NSDictionary *)result;
+
+/** 获取用户推送信息列表失败回调
+ * @param result 错误信息
+ */
+- (void) tGetUserMessageListFailed:(NSDictionary *)result;
+
 @end
 
 @interface TGameSDK : NSObject
@@ -274,6 +284,24 @@ FOUNDATION_EXPORT const unsigned char TGameSDKVersionString[];
            UploadImages:(NSArray <UIImage *>*)uploadImages
               LinkTitle:(NSString *)linkTitle
                 LinkUrl:(NSString *)linkUrl;
+
+
+/*
+ * 获取推送消息列表
+ * @param startIndex 分页下表
+ * @param length 分页数量
+ * @param language 语言类型
+ */
+-(void)getMessageWith:(NSInteger)startIndex
+            andLength:(NSInteger)length
+          andLanguage:(NSString *)language;
+
+/*
+ * 记录消息读取次数
+ * @param messageId 消息对应的id
+ */
+- (void)recordMessageCountWithMessageId:(NSString *)messageId;
+
 
 /***
  *facebook统计安装的代码:静态方法，

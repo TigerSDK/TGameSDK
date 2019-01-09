@@ -139,7 +139,7 @@ static NSString *const TGameSDKLoginFacebookShare = @"tg://login/facebook/share"
 
 
 /**
- facebook 旧分享链接
+ facebook 分享链接
  
  @param linkURL 链接地址
  @param hashTag 标签 格式为 #tag
@@ -148,17 +148,6 @@ static NSString *const TGameSDKLoginFacebookShare = @"tg://login/facebook/share"
 - (void) fbShareWithLinkURL:(NSString *)linkURL
                 WithHashTag:(NSString *)hashTag
                   WithQuote:(NSString *)quote;
-
-/**
- facebook 新分享链接方式
- 
- @param linkURL 链接地址
- @param hashTag 标签 格式为 #tag
- @param quote 引文分享
- */
--(void)fbNewShareWithLinkURL:(NSString *)linkURL
-                 WithHashTag:(NSString *)hashTag
-                   WithQuote:(NSString *)quote;
 
 /*
  * facebook 开放图谱分享

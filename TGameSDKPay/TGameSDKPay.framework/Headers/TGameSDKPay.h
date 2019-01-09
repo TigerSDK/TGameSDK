@@ -30,6 +30,11 @@ static NSString *const TGameSDKPayDoPayment = @"tg://login/pay/doPayment";
  */
 static NSString *const TGameSDKPayDoAppPayment = @"tg://login/pay/doAppPayment";
 
+/**检查是否有掉单情况
+ *
+ */
+static NSString *const TGameSDKPayCheckTrans = @"tg://login/pay/checkTrans";
+
 
 @interface TGameSDKPay : NSObject
 

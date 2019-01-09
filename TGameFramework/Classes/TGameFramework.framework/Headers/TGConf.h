@@ -73,6 +73,8 @@ enum {
 #define TG_SDK_ACTION_FORGETPW @"/sdk/user/v3/forgot"
 #define TG_SDK_ACTION_REGISTER @"/sdk/user/v3/register"
 
+#define TG_SDK_ACTION_MESSAGELIST @"/message/getMessage"
+
 //广告推送
 #define TG_SDK_ACTION_ADSPUSHES @"/sdk/notice/v3/notice"
 // 用户数据采集接口
@@ -107,7 +109,10 @@ enum {
 #define TG_SDK_TERMS_USERPRIVACY [NSString stringWithFormat:@"%@%@%@",  @"/views/html/policy/privacyPolicy_",[TGHelper getTermsHTMLString],@".html"]
 #define TG_SDK_TERMS_TGSERVE [NSString stringWithFormat:@"%@%@%@",  @"/views/html/terms/userTerms_",[TGHelper getTermsHTMLString],@".html"]
 
-
+//key of postdata in message
+#define TG_SDK_POSTDATAKEY_StartIndex @"start"
+#define TG_SDK_POSTDATAKEY_Length @"length"
+#define TG_SDK_POSTDATAKEY_Language @"language"
 
 //key of postdata in tgamelogin
 #define TG_SDK_POSTDATAKEY_USERNAME @"username"
